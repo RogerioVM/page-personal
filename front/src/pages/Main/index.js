@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaGithub, FaInstagram, FaLinkedin, FaFacebook, FaWhatsapp } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import Foto from '../assets/photo.jpg';
 import './style.css';
 
@@ -40,7 +40,6 @@ export default function Main() {
                             <Link to='/' onClick={() => window.open('https://github.com/RogerioVM')}><FaGithub  size={35}></FaGithub></Link>
                             <Link to='/' onClick={() => window.open('https://www.instagram.com/rogeriovicente92/?hl=pt-br')}><FaInstagram size={35}></FaInstagram></Link>
                             <Link to='/' onClick={() => window.open('https://www.linkedin.com/in/rogerio-morais-1b20411a7/')}><FaLinkedin size={35}></FaLinkedin></Link>
-                            <Link to='/'><FaFacebook size={35}></FaFacebook></Link>
                             <Link to='/'><FaWhatsapp size={35}></FaWhatsapp></Link>
 
                         </div>
