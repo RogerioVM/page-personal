@@ -1,0 +1,13 @@
+footer {
+    padding: 2em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(233, 172, 58);
+}
+
+footer p {
+    font-weight: bold;
+    color: var(--color-titles);
+}
