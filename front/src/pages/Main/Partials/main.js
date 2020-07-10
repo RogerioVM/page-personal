@@ -6,6 +6,7 @@ import '../Styles/main.css';
 
 
 export default function Content() {
+    
 return (
 <main>
     <div><p> Autalizado em 04/07</p></div>
