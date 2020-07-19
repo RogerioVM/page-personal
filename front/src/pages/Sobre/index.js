@@ -24,7 +24,7 @@ export default function Sobre() {
                         programação foi em 2017 quando iniciou, por influência de uso excessivo do Excel no trabalho,
                         um curso online focado no VBA — Visual Basic Aplication — onde concretizou que programação
                         poderia ser a futura profissão.Iniciou de vez os estudos no inicio de 2020
-                        começando por video aulas do youtube, onde cada vez mais fou aumentando o interesse.
+                        começando por video aulas do youtube, onde cada vez mais foi aumentando o interesse.
                     </p>
 
                     <h2>Objetivos profissionais</h2>
