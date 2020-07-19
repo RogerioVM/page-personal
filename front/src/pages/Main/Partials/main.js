@@ -1,18 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp} from 'react-icons/fa';
 import Foto from '../../assets/photo.jpg';
 import '../Styles/main.css';
 
 
 export default function Content() {
+
     
 return (
 <main>
-    <div><p> Autalizado em 04/07</p></div>
+    <div><p>Autalizado em 04/07</p></div>
     <div className="main__container">
 
-        <div className='main__container-social-medias'>
+        <div className='main__container_social-medias'>
             <div className="main__container-img">
                 <img src={Foto} alt="foto"/>
             </div>
@@ -56,13 +57,13 @@ return (
         <h2  className="main__titles-secondary">Progredindo</h2>
 
         <p>
-        A fim de impulssionar meus conhecimentos de Javascript, decidi adicionar algo de impacto na linguagem. Algo que ao mesmo tempo sendo uma novidade, fosse também uma forma de ajudar no entendimento de Javascript. Foi então que, com dois meses de estudos, me inscrevi na semana Omnistack da Rocketseat,evento em que faríamos um projeto do zero com Node, React e React Native. Resultado: também me apaixonei por essa biblioteca — inclusive resolvi subir esse pequeno projeto utilizando o React para fins de prática. Óbvio que algumas partes estavam avançadas para mim, mas mesmo com algumas dificuldades consegui concluir o projeto e aprendi muito com o Diego Fernandez (CTO e pofessor no evento).Estou praticando e estudando dia após dia essa biblioteca, e pretendo me especializar nela usá-la como uma espécie de cartão de visitas no front-end.
+        A fim de impulssionar meus conhecimentos de Javascript, decidi adicionar algo de impacto na linguagem. Algo que ao mesmo tempo sendo uma novidade, fosse também uma forma de ajudar no entendimento de Javascript. Foi então que, com dois meses de estudos, me inscrevi na semana Omnistack da <Link onClick={() => window.open('https://rocketseat.com.br/')}>Rocketseat</Link>,evento em que faríamos um projeto do zero com Node, React e React Native. Resultado: também me apaixonei por essa biblioteca — inclusive resolvi subir esse pequeno projeto utilizando o React para fins de prática. Óbvio que algumas partes estavam avançadas para mim, mas mesmo com algumas dificuldades consegui concluir o projeto e aprendi muito com o Diego Fernandez (CTO e pofessor no evento).Estou praticando e estudando dia após dia essa biblioteca, e pretendo me especializar nela usá-la como uma espécie de cartão de visitas no front-end.
         </p>
 
         <h2  className="main__titles-secondary">Mudando para crescer mais</h2>
 
         <p>
-            Ao passar do tempo e estudando em média 3hs por dia, percebi que somente o front-end estava me limitando ao acompanhamento dos procedimentos tornando inevitável a necessidade de conhecimentos, ainda que básicos, no back-end. Já tinha tido a experiência da semana Omnistack com o Node, o que me motivou a estudar mais e aprender o básico deste interpretador.Porém, me indicaram um curso denominado "PHP do zero ao profissional", e resolvi fazê-lo com o intuito de me especializar em uma linguagem do back-end, e também após muita pesquisa constatei que o curso nos passa desde os principios básicos até ao avançado de desenvolvimento como um todo — ótimo curso por sinal. No momento React e PHP são meu foco para acrescentar e tentar de inicio meu passaporte rumo ao primeiro emprego.Me identifiquei com o curso, acrescentei muito mais conhecimento e ao começar com o PHP, realmente foi quando percebi que não é apenas momento, não é só uma empolgação momentânea, eu realmente levo jeito para programar.O PHP me parece um tanto que amigável, apesar de uma sintaxe totalmente diferente do que até então eu estava mais acostumado.
+            Ao passar do tempo e estudando em média 3hs por dia, percebi que somente o front-end estava me limitando ao acompanhamento dos procedimentos tornando inevitável a necessidade de conhecimentos, ainda que básicos, no back-end. Já tinha tido a experiência da semana Omnistack com o Node, o que me motivou a estudar mais e aprender o básico deste interpretador.Porém, me indicaram um curso denominado <Link onClick={() => window.open('https://b7web.com.br/php/')}>PHP do zero ao profissional</Link>, e resolvi fazê-lo com o intuito de me especializar em uma linguagem do back-end, e também após muita pesquisa constatei que o curso nos passa desde os principios básicos até ao avançado de desenvolvimento como um todo — ótimo curso por sinal. No momento React e PHP são meu foco para acrescentar e tentar de inicio meu passaporte rumo ao primeiro emprego.Me identifiquei com o curso, acrescentei muito mais conhecimento e ao começar com o PHP, realmente foi quando percebi que não é apenas momento, não é só uma empolgação momentânea, eu realmente levo jeito para programar.O PHP me parece um tanto que amigável, apesar de uma sintaxe totalmente diferente do que até então eu estava mais acostumado.
             
         </p>
 
@@ -79,8 +80,8 @@ return (
         <p>
             Nos meus seis meses de estudos, com poucos e básicos projetos para exercitar meus conhecimentos e colocando em prática meus aprendizados, hoje sei que não é impossível conseguir ser um desenvoledor web, desde que o foco e a força de vontade esteja ao lado de muita  paciência e disciplina, misturado com uma boa xícara de café e um computador para começar.Se vou conseguir? É difícil garantir.Só o que é certo garantir é a vontade de aprender e crescer, pois com as ferramentas em mãos, vou fazendo a minha parte. 
         </p>
-    </div>
-
+        
+       </div>
 </main>
 )
 }

@@ -4,6 +4,7 @@ import Header from './Partials/header';
 import Footer from './Partials/footer';
 
 
+
 export default function Main() {
     
     return (

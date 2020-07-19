@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../Styles/header.css';
 
+
 export default function Header() {
 
     return (
@@ -13,9 +14,8 @@ export default function Header() {
                 <div className="header__menu">
                     <nav>
                         <ul className='header__menu-list'>
+                            <li><Link to='/'>Home</Link></li>
                             <li><Link to='/Sobre'>Sobre</Link></li>
-                            <li><Link to='/'>Topicos</Link></li>
-                            <li><Link to='/'>Contato</Link></li>
                         </ul>
                     </nav>
                 </div>
