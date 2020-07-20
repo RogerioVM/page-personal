@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Main/Partials/header';
 import '../Main/Styles/header.css';
+import '../../global.css';
 import './style.css'
 import Footer from '../Main/Partials/footer'
 import Photo from '../assets/photo.jpg'
