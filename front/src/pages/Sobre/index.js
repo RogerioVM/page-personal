@@ -1,8 +1,10 @@
 import React from 'react';
 import Header from '../Main/Partials/header';
+import { Link } from 'react-router-dom';
 import '../Main/Styles/header.css';
 import '../../global.css';
-import './style.css'
+import './sobre.css';
+import '../Main/Styles/main.css'
 import Footer from '../Main/Partials/footer'
 import Photo from '../assets/photo.jpg'
 
@@ -14,8 +16,10 @@ export default function Sobre() {
         <div className="global-component">
             <Header></Header>
             <main>
+    <div><p>Autalizado em 04/07</p></div>
+
              <div className="main__container center">
-                    <div className="other-photo">
+                    <div className="other-page-photo">
                         <img  src={Photo} alt=""/>
                     </div>
                     <p>
@@ -31,13 +35,36 @@ export default function Sobre() {
                     <h2>Objetivos profissionais</h2>
 
                     <p>
-                        A curto prazo,ser um programador front-end. Estudando no momento React.Cursos já realizados, fora
-                        todos os bootcamps onlines, são :
+                        A curto prazo,ser um programador front-end. Estudando no momento React.Cursos já realizados, sem mencionar 
+                        os bootcamps participados e que está completando são :
                         <ul>
-                            <li>Desenvolvimento Web mderno — Udemy</li>
-                            <li>Lógica de programação — Curso em video</li>
-                            <li>Php do zero ao profissional — B7WEB</li>
-                            <li>Git e versionamento de código — Digital Innovation One</li>
+                            <li>Desenvolvimento Web mderno —  
+                                <Link 
+                                    onClick={() => window.open('https://www.udemy.com/')} 
+                                    to="/"> Udemy 
+                                </Link> 
+                            </li>
+
+                            <li>Lógica de programação — 
+                                <Link 
+                                    onClick={() => window.open('https://www.youtube.com/user/cursosemvideo')} 
+                                    to="/"> Curso em video 
+                                </Link>
+                            </li>
+
+                            <li>Php do zero ao profissional — 
+                                <Link 
+                                    onClick={() => window.open('https://alunos.b7web.com.br/explorar')} 
+                                    to="/"> B7WEB
+                                </Link>
+                            </li>
+
+                            <li>Git e versionamento de código — 
+                                <Link 
+                                    onClick={() => window.open('https://alunos.b7web.com.br/explorar')} 
+                                    to="/"> Digital Innovation One
+                                </Link>
+                            </li>
                         </ul>
 
                     </p>
