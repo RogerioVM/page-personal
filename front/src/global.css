@@ -1,0 +1,114 @@
+:root {
+    --container-width: 1200px;
+    --container-padding: 0 1em;
+    --color-titles: #2e2ed8;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+
+html {
+    font-size: 70%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-rendering: optimizeLegibility;
+}
+
+.global-component {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+ }
+ .global-component p {
+     text-align: justify;
+     line-height: 1.7em;
+     font-size: clamp(1.7em, 1em + 2vw, 0.5em);
+ }
+
+ button {
+     cursor: pointer;
+     font-weight: bold;
+     font-size: 1.5em;
+ }
+ /* RESPONSIVE PART */
+
+@media (max-width: 850px){
+    .header__container{
+        padding: 2.5em;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__title {
+        margin-left: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .header__menu-list {
+        display: block;
+    }
+    .header__menu-list li {
+        padding-top: 1em;
+    }
+    .main__container p {
+        font-size: 1.8rem;
+        text-align: left;
+    }
+    .main__container_social-medias {
+        flex-direction: column;
+    }
+    .links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 4em;
+    }
+
+    .links a {
+        margin-top: 15px
+    }
+    .footer_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_container p, .footer_container a {
+        margin-top: 10px;
+    }
+    
+}
+
+@media (min-width:0) and (max-width: 475px) {
+       .global-component {
+        position: absolute;
+        width: 100vw;
+    }
+    .main__title {
+        display: grid;
+        justify-content: center;
+        grid-template-rows: 200px 1fr;
+        width: 100%;
+        font-size: clamp(25px, 1em + 2vw, 0.5em);
+    }
+
+    .logo {
+        margin: 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        
+    }
+
+    .footer_container {
+        font-size: 1rem;
+    }
+}
