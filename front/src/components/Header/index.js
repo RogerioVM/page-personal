@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../../../assets/Logo.png';
-import '../Styles/header.css';
+import Logo from '../../assets/Logo.png';
+import './style.css';
 
 
 export default function Header() {
@@ -17,7 +17,6 @@ export default function Header() {
                         <ul className='header__menu-list'>
                             <li><Link to='/'>Home</Link></li>
                             <li><Link to='/Sobre'>Sobre</Link></li>
-                            <li><Link to ='/Relacionados'>Relacionados</Link></li>
                         </ul>
                     </nav>
                 </div>

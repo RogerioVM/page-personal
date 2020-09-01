@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/footer.css';
+import './style.css';
 import { FaWhatsapp, FaEnvelope} from 'react-icons/fa';
 
 export default function Footer() {

@@ -1,10 +1,10 @@
 import React from 'react';
 import {useForm} from 'react-hook-form'
-import Header from '../Main/Partials/header';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import { Link } from 'react-router-dom';
-import '../../global.css';
-import './sobre.css';
-import Footer from '../Main/Partials/footer'
+import '../../pages/Styles/global.css';
+import './style.css';
 import Photo from '../../assets/photo.jpg'
 
 
