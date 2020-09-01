@@ -7,7 +7,6 @@ import './sobre.css';
 import Footer from '../Main/Partials/footer'
 import Photo from '../../assets/photo.jpg'
 
-import api from '../../connections/api';
 
 
 
