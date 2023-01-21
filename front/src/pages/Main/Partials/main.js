@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp} from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp, FaArrowRight} from 'react-icons/fa';
 import Foto from '../../assets/photo.jpg';
 import '../Styles/main.css';
 
@@ -10,13 +10,17 @@ export default function Content() {
     
 return (
 <main>
-    <div><p>Autalizado em 04/07</p></div>
+    <div><p>Autalizado em 04/07/20</p></div>
+
     <div className="main__container">
+
+        <Link to='/Umano' className='proximo'><FaArrowRight></FaArrowRight></Link>
 
         <div className='main__container_social-medias'>
             <div className="main__container-img">
                 <img src={Foto} alt="foto"/>
             </div>
+
             <div className="links">
 
             <Link to='/' onClick={() => window.open('https://github.com/RogerioVM')}><FaGithub  size={35}></FaGithub></Link>

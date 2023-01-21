@@ -1,12 +1,11 @@
 import React from 'react';
 import Header from '../Main/Partials/header';
 import { Link } from 'react-router-dom';
-import '../Main/Styles/header.css';
+import Footer from '../Main/Partials/footer'
+import Photo from '../assets/photo.jpg';
+
 import '../../global.css';
 import './sobre.css';
-import '../Main/Styles/main.css'
-import Footer from '../Main/Partials/footer'
-import Photo from '../assets/photo.jpg'
 
 
 
@@ -16,26 +15,26 @@ export default function Sobre() {
         <div className="global-component">
             <Header></Header>
             <main>
-    <div><p>Autalizado em 04/07</p></div>
+            <div><p>Autalizado em 04/07</p></div>
 
              <div className="main__container center">
                     <div className="other-page-photo">
                         <img  src={Photo} alt=""/>
                     </div>
                     <p>
-                        Rogério Vicente de Morais, 27 anos, casado e pai do Samuel.Nascido e criado em São Paulo 
-                        e apaixonado por técnologia e suas inovações, ainda não tem nenhuma graduação em ensino 
-                        superior, porém está sempre em busca de conhecimento.Primeiro contato com
+                        Rogério Vicente de Morais, 27 anos, casado e pai do Samuel. Nascido e criado em São Paulo 
+                        e apaixonado por tecnologia e suas inovações, ainda não tem nenhuma graduação em ensino 
+                        superior, porém está sempre em busca de conhecimento. Primeiro contato com
                         programação foi em 2017 quando iniciou, por influência de uso excessivo do Excel no trabalho,
                         um curso online focado no VBA — Visual Basic Aplication — onde concretizou que programação
-                        poderia ser a futura profissão.Iniciou de vez os estudos no inicio de 2020
+                        poderia ser a futura profissão. Iniciou de vez os estudos no inicio de 2020
                         começando por video aulas do youtube, onde cada vez mais foi aumentando o interesse.
                     </p>
 
                     <h2>Objetivos profissionais</h2>
 
                     <p>
-                        A curto prazo,ser um programador front-end. Estudando no momento React.Cursos já realizados, sem mencionar 
+                        A curto prazo, ser um programador front-end. Estudando no momento React. Cursos já realizados, sem mencionar 
                         os bootcamps participados e que está completando são :
                         <ul>
                             <li>Desenvolvimento Web mderno —  

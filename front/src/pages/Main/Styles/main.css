@@ -72,3 +72,9 @@ small {
     color: blue;
     text-decoration: none;
 }
+
+.proximo {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+}
